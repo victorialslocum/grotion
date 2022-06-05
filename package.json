@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^1.35.3",
+    "@supabase/ui": "^0.36.5",
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.11",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "next": "^12.1.6",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "name": "grotion",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/victorialslocum/grotion.git",
+  "author": "victoria <victorialslocum@gmail.com>",
+  "license": "MIT",
+  "type": "module"
+}
