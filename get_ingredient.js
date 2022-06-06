@@ -1,5 +1,6 @@
 import axios from "axios";
 import cheerio from "cheerio";
+import fs from "fs";
 
 const getIngredient = async (item) => {
   try {
@@ -22,4 +23,8 @@ const getIngredient = async (item) => {
   }
 };
 
-getIngredient("turkey").then((titles) => console.log(titles));
+// const titles = await getIngredient("turkey");
+
+// fs.writeFile("file.json", JSON.stringify(titles), function (err, result) {
+//   if (err) console.log("error", err);
+// });
