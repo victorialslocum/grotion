@@ -7,124 +7,17 @@ const RECIPE_DB_ID = process.env.RECIPE_DB_ID;
 const MAIN_DB_ID = process.env.MAIN_DB_ID;
 const FOOD_DB_ID = process.env.FOOD_DB_ID;
 
-const queryDb = async (db_id) => {
-  const databaseId = db_id;
-  const response = await notion.databases.query({
-    database_id: databaseId,
-  });
-  let food_list = [];
-  for (let i = 0; i < response.results.length; i++) {
-    let item = response.results[i];
-    let food = item.properties.Name.title[0].plain_text;
-    food_list.push(food);
+const makeNotionText = (listText) => {
+  let richText = [];
+  for (let i = 0; i < listText.length; i++) {
+    richText.push({
+      type: "text",
+      text: {
+        content: listText[i],
+      },
+    });
   }
-
-  return food_list;
-};
-
-// create recipe page
-const createRecipePage = async (
-  dbId,
-  instructions,
-  ingredients,
-  image,
-  name,
-  servings,
-  emoji,
-  url
-) => {
-  const response = await notion.pages.create({
-    parent: {
-      database_id: dbId,
-    },
-    icon: {
-      type: "emoji",
-      emoji: emoji,
-    },
-    cover: {
-      type: "external",
-      external: {
-        url: image,
-      },
-    },
-    properties: {
-      Name: {
-        title: [
-          {
-            text: {
-              content: name,
-            },
-          },
-        ],
-      },
-      Servings: {
-        number: servings,
-      },
-      URL: {
-        url: url,
-      },
-      children: [
-        {
-          object: "block",
-          type: "heading_2",
-          heading_2: {
-            rich_text: [
-              {
-                type: "text",
-                text: {
-                  content: "Ingredients",
-                },
-              },
-            ],
-          },
-        },
-        {
-          object: "block",
-          type: "paragraph",
-          paragraph: {
-            rich_text: [
-              {
-                type: "text",
-                text: {
-                  content: ingredients,
-                },
-              },
-            ],
-          },
-        },
-        {
-          object: "block",
-          type: "heading_2",
-          heading_2: {
-            rich_text: [
-              {
-                type: "text",
-                text: {
-                  content: "Instructions",
-                },
-              },
-            ],
-          },
-        },
-        {
-          object: "block",
-          type: "paragraph",
-          paragraph: {
-            rich_text: [
-              {
-                type: "text",
-                text: {
-                  content: instructions,
-                },
-              },
-            ],
-          },
-        },
-      ],
-    },
-  });
-  console.log(response);
-  // return id
+  return richText;
 };
 
 // create pages for each ingredient in Food Database
@@ -153,22 +46,154 @@ const createFoodPage = async (dbId, name, price, size, category) => {
           },
         ],
       },
-      Type: {
-        select: {
-          name: category,
-        },
-      },
+      //   Type: {
+      //     multiselect: {
+      //       name: category,
+      //     },
+      //   },
       Price: {
         number: price,
       },
     },
   });
+  console.log("FOOD PAGE", response);
+  return response.id;
+};
+
+const queryFoodDb = async (
+  db_id,
+  ingredientName,
+  store_price,
+  store_size,
+  category
+) => {
+  const databaseId = db_id;
+  const response = await notion.databases.query({
+    database_id: databaseId,
+    filter: {
+      property: "Name",
+      title: {
+        contains: ingredientName,
+      },
+    },
+  });
+  console.log("RESPONSE", response);
+  if (response.results.length == 0) {
+    console.log("HI");
+    let foodPageId = await createFoodPage(
+      db_id,
+      ingredientName,
+      store_price,
+      store_size,
+      category
+    );
+    console.log("FOOD PAGE ID 2", foodPageId);
+    return foodPageId;
+  } else {
+    console.log("FOOD PAGE ID", response.results[0].id);
+    return response.results[0].id;
+  }
+};
+
+// create recipe page
+const createRecipePage = async (
+  dbId,
+  instructions,
+  ingredients,
+  image,
+  name,
+  servings,
+  emoji,
+  url
+) => {
+  const response = await notion.pages.create({
+    parent: {
+      database_id: dbId,
+    },
+    icon: {
+      type: "emoji",
+      emoji: emoji,
+    },
+    cover: {
+      type: "external",
+      external: {
+        url: image[0],
+      },
+    },
+    properties: {
+      Name: {
+        title: [
+          {
+            text: {
+              content: name,
+            },
+          },
+        ],
+      },
+      Servings: {
+        number: servings[0],
+      },
+      URL: {
+        url: url,
+      },
+    },
+    children: [
+      {
+        object: "block",
+        type: "heading_2",
+        heading_2: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: "Ingredients",
+              },
+            },
+          ],
+        },
+      },
+      {
+        object: "block",
+        type: "paragraph",
+        paragraph: {
+          rich_text: makeNotionText(ingredients),
+        },
+      },
+      {
+        object: "block",
+        type: "heading_2",
+        heading_2: {
+          rich_text: [
+            {
+              type: "text",
+              text: {
+                content: "Instructions",
+              },
+            },
+          ],
+        },
+      },
+      {
+        object: "block",
+        type: "paragraph",
+        paragraph: {
+          rich_text: makeNotionText(instructions),
+        },
+      },
+    ],
+  });
   console.log(response);
-  // return id
+  return response.id;
 };
 
 // create pages for main database
-const createMainPage = async (dbId, foodPageId, recipePageId, quantity) => {
+const createMainPage = async (
+  dbId,
+  foodPageId,
+  recipePageId,
+  quantity,
+  unit
+) => {
   const response = await notion.pages.create({
     parent: {
       database_id: dbId,
@@ -188,10 +213,23 @@ const createMainPage = async (dbId, foodPageId, recipePageId, quantity) => {
           },
         ],
       },
+      Quantity: {
+        number: quantity,
+      },
+      Unit: {
+        rich_text: [
+          {
+            type: "text",
+            text: {
+              content: unit,
+            },
+          },
+        ],
+      },
     },
   });
   console.log(response);
-  // return id
+  return response.id;
 };
 
 // data
@@ -200,66 +238,67 @@ const ingredientData = [
     quantity: "2",
     unit: "cup",
     ingredient: ["farro"],
-    store_price: "$3.07 ",
+    store_price: "3.07",
     store_size: " 7 oz",
   },
   {
     quantity: "¾",
     unit: "pound",
     ingredient: ["fresh", "asparagus"],
-    store_price: "$4.31 ",
+    store_price: "4.31",
     store_size: " Avg. 0.7 lb",
   },
   {
     quantity: "1",
     unit: "cup",
     ingredient: ["red", "yellow", "cherry", "tomatoes"],
-    store_price: "$5.65 ",
+    store_price: "5.65",
     store_size: " 750 mL",
   },
   {
     quantity: "¾",
     unit: "cup",
     ingredient: ["walnuts"],
-    store_price: "$3.07 ",
+    store_price: "3.07",
     store_size: " 6 oz",
   },
   {
     quantity: "¾",
     unit: "cup",
     ingredient: ["dried", "cranberries"],
-    store_price: "$2.35 ",
+    store_price: "2.35",
     store_size: " 5 oz",
   },
   {
     quantity: "½",
     unit: "cup",
     ingredient: ["fresh", "parsley"],
-    store_price: "$1.68 ",
+    store_price: "1.68",
     store_size: " .75 oz",
   },
   {
     quantity: "⅓",
     unit: "cup",
     ingredient: ["fresh", "chives"],
-    store_price: "$4.61 ",
+    store_price: "4.61",
     store_size: " .25 oz",
   },
   {
     quantity: "¼",
     unit: "cup",
     ingredient: ["balsamic", "vinaigrette"],
-    store_price: "$2.58 ",
+    store_price: "2.58",
     store_size: " 16 oz",
   },
   {
     quantity: "1",
     unit: "cup",
     ingredient: ["Parmesan", "cheese"],
-    store_price: "$3.39 ",
+    store_price: "3.39",
     store_size: " 8 oz",
   },
 ];
+
 const instructions = [
   "Soak farro in a large bowl of water for at least 12 hours. Drain.",
   "Fill a large pot with lightly salted water and bring to a rolling boil over high heat. Once the water is boiling, stir in the drained farro, and return to a boil. Reduce heat to medium, then cook the farro uncovered, stirring occasionally for 20 minutes. Reduce heat to low, cover, and continue simmering until tender, about 30 more minutes. Drain and allow to cool.",
@@ -283,4 +322,45 @@ const image = [
 const name = "Farro Salad with Asparagus and Parmesan";
 const servings = [12];
 
-const food_list = await queryDb(FOOD_DB_ID);
+const emoji = "🌵";
+const url =
+  "https://www.allrecipes.com/recipe/214924/farro-salad-with-asparagus-and-parmesan/";
+
+const recipePageId = await createRecipePage(
+  RECIPE_DB_ID,
+  instructions,
+  ingredients,
+  image,
+  name,
+  servings,
+  emoji,
+  url
+);
+
+console.log(recipePageId);
+
+for (let i = 0; i < ingredientData.length; i++) {
+  let itemData = ingredientData[i];
+  let quantity = parseFloat(itemData["quantity"]);
+  let unit = itemData["unit"];
+  let ingredient = itemData["ingredient"].join(" ");
+  let store_price = parseFloat(itemData["store_price"]);
+  let store_size = itemData["store_size"];
+  let category = "test";
+
+  let foodPageId = await queryFoodDb(
+    FOOD_DB_ID,
+    ingredient,
+    store_price,
+    store_size,
+    category
+  );
+
+  let mainPageId = await createMainPage(
+    MAIN_DB_ID,
+    foodPageId,
+    recipePageId,
+    quantity,
+    unit
+  );
+}

@@ -78,7 +78,8 @@ def get_recipe_data(recipe_url):
         for item in content:
             # split item to price, size, and name
             split = re.split('\,|each|\)|\(', item)
-            total_price = split[0]
+            # TODO: FIX
+            total_price = split[0].replace("$", "").replace(" ", "")
             total_size = split[-1]
             # put into item dict
             item_dict = {'total_price': total_price,
