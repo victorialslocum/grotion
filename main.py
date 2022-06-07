@@ -1,17 +1,17 @@
 import requests
 from decouple import config
 import json
-from bs4 import BeautifulSoup
 import re
 import spacy
 
 nlp = spacy.load("en_core_web_sm")
-
 RAPIDAPI_KEY = config('RAPIDAPI_KEY')
 
-rapid_api_url = "https://mycookbook-io1.p.rapidapi.com/recipes/rapidapi"
-
+# user input
 recipe_url = "https://www.foodnetwork.com/recipes/ree-drummond/chocolate-caramel-mug-cake-8603924"
+
+# fn start
+rapid_api_url = "https://mycookbook-io1.p.rapidapi.com/recipes/rapidapi"
 
 headers = {
 	"content-type": "text/plain",
@@ -67,28 +67,38 @@ def ingredient_parser(ingredients):
 
 parsed_ingredients = ingredient_parser(ingredients)
 
+# get ingredient info from javascript file (/pages/api/heb.js)
 def get_ingredient_info(item_name):
+	# access the webpage
 	url = 'http://localhost:3000/api/heb?param=' + item_name
 	page = requests.get(url)
+	# load webpage content
 	content = json.loads(page.content)
 
 	items = []
 
 	for item in content:
+		# split item to price, size, and name
 		split = re.split('\,|each|\)|\(', item)
 		total_price = split[0]
 		total_size = split[-1]
-		info_dict = {'total_price': total_price, 'total_size': total_size, 'item': item_name}
-		items.append(info_dict)
+		# put into item dict
+		item_dict = {'total_price': total_price, 'total_size': total_size, 'item': item_name}
+		# append list
+		items.append(item_dict)
 
+	# return items
 	print(items)
 	return items
 
+# put all ingredient info together
 def get_prices(parsed_ingredients):
-
 	for ingredient in parsed_ingredients:
+		# make ingredient into a string
 		name = ' '.join(ingredient['ingredient'])
+		# search heb for ingredient info
 		items = get_ingredient_info(name)
+		# if search is successful, append data, else, append 0
 		if items:
 			ingredient['store_price'] = items[0]['total_price']
 			ingredient['store_size'] = items[0]['total_size']
@@ -96,7 +106,172 @@ def get_prices(parsed_ingredients):
 			ingredient['store_price'] = 0
 			ingredient['store_size'] = 0
 
+	# return ingredients
 	print(parsed_ingredients)
 	return parsed_ingredients
 
-get_prices(parsed_ingredients)
+ingredient_data = get_prices(parsed_ingredients)
+
+import requests, json
+
+token = 'YOUR-SECRET-NOTION-INTEGRATION-TOKEN'
+
+databaseId = 'YOUR-DATABASE-ID-HERE'
+
+headers = {
+    "Authorization": "Bearer " + token,
+    "Content-Type": "application/json",
+    "Notion-Version": "2021-05-13"
+}
+
+# read database
+def readDatabase(databaseId, headers):
+    readUrl = f"https://api.notion.com/v1/databases/{databaseId}/query"
+
+    res = requests.request("POST", readUrl, headers=headers)
+    data = res.json()
+    print(res.status_code)
+    # print(res.text)
+
+    with open('./db.json', 'w', encoding='utf8') as f:
+        json.dump(data, f, ensure_ascii=False)
+
+# create recipe page
+def createRecipePage(databaseId, headers):
+
+    createUrl = 'https://api.notion.com/v1/pages'
+
+    newPageData = {
+        "parent": { "database_id": databaseId },
+        "properties": {
+            "Description": {
+                "title": [
+                    {
+                        "text": {
+                            "content": "Review"
+                        }
+                    }
+                ]
+            },
+            "Value": {
+                "rich_text": [
+                    {
+                        "text": {
+                            "content": "Amazing"
+                        }
+                    }
+                ]
+            },
+            "Status": {
+                "rich_text": [
+                    {
+                        "text": {
+                            "content": "Active"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+    
+    data = json.dumps(newPageData)
+    # print(str(uploadData))
+
+    res = requests.request("POST", createUrl, headers=headers, data=data)
+
+    print(res.status_code)
+    print(res.text)
+
+def createIngredientPage(databaseId, headers, ingredient, ):
+
+    createUrl = 'https://api.notion.com/v1/pages'
+
+    newPageData = {
+        "parent": { "database_id": databaseId },
+        "properties": {
+            "Description": {
+                "title": [
+                    {
+                        "text": {
+                            "content": "Review"
+                        }
+                    }
+                ]
+            },
+            "Value": {
+                "rich_text": [
+                    {
+                        "text": {
+                            "content": "Amazing"
+                        }
+                    }
+                ]
+            },
+            "Status": {
+                "rich_text": [
+                    {
+                        "text": {
+                            "content": "Active"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+    
+    data = json.dumps(newPageData)
+    # print(str(uploadData))
+
+    res = requests.request("POST", createUrl, headers=headers, data=data)
+
+    print(res.status_code)
+    print(res.text)
+
+def createMainPage(databaseId, headers):
+
+    createUrl = 'https://api.notion.com/v1/pages'
+
+    newPageData = {
+        "parent": { "database_id": databaseId },
+        "properties": {
+            "Description": {
+                "title": [
+                    {
+                        "text": {
+                            "content": "Review"
+                        }
+                    }
+                ]
+            },
+            "Value": {
+                "rich_text": [
+                    {
+                        "text": {
+                            "content": "Amazing"
+                        }
+                    }
+                ]
+            },
+            "Status": {
+                "rich_text": [
+                    {
+                        "text": {
+                            "content": "Active"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+    
+    data = json.dumps(newPageData)
+    # print(str(uploadData))
+
+    res = requests.request("POST", createUrl, headers=headers, data=data)
+
+    print(res.status_code)
+    print(res.text)
+
+# create pages for each ingredient in Food Database if ingredient doesn't exist
+# create pages for main database
+
