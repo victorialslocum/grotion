@@ -1,0 +1,4358 @@
+[
+  {
+    "emoji": "🐵",
+    "description": "monkey face",
+    "category": "Animals & Nature",
+    "aliases": ["monkey_face"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐒",
+    "description": "monkey",
+    "category": "Animals & Nature",
+    "aliases": ["monkey"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🦍",
+    "description": "gorilla",
+    "category": "Animals & Nature",
+    "aliases": ["gorilla"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🦧",
+    "description": "orangutan",
+    "category": "Animals & Nature",
+    "aliases": ["orangutan"],
+    "tags": [],
+    "unicode_version": "12.0",
+    "ios_version": "13.0"
+  },
+  {
+    "emoji": "🐶",
+    "description": "dog face",
+    "category": "Animals & Nature",
+    "aliases": ["dog"],
+    "tags": ["pet"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐕",
+    "description": "dog",
+    "category": "Animals & Nature",
+    "aliases": ["dog2"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🦮",
+    "description": "guide dog",
+    "category": "Animals & Nature",
+    "aliases": ["guide_dog"],
+    "tags": [],
+    "unicode_version": "12.0",
+    "ios_version": "13.0"
+  },
+  {
+    "emoji": "🐕‍🦺",
+    "description": "service dog",
+    "category": "Animals & Nature",
+    "aliases": ["service_dog"],
+    "tags": [],
+    "unicode_version": "12.0",
+    "ios_version": "13.0"
+  },
+  {
+    "emoji": "🐩",
+    "description": "poodle",
+    "category": "Animals & Nature",
+    "aliases": ["poodle"],
+    "tags": ["dog"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐺",
+    "description": "wolf",
+    "category": "Animals & Nature",
+    "aliases": ["wolf"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🦊",
+    "description": "fox",
+    "category": "Animals & Nature",
+    "aliases": ["fox_face"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🦝",
+    "description": "raccoon",
+    "category": "Animals & Nature",
+    "aliases": ["raccoon"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🐱",
+    "description": "cat face",
+    "category": "Animals & Nature",
+    "aliases": ["cat"],
+    "tags": ["pet"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐈",
+    "description": "cat",
+    "category": "Animals & Nature",
+    "aliases": ["cat2"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐈‍⬛",
+    "description": "black cat",
+    "category": "Animals & Nature",
+    "aliases": ["black_cat"],
+    "tags": [],
+    "unicode_version": "13.0",
+    "ios_version": "14.0"
+  },
+  {
+    "emoji": "🦁",
+    "description": "lion",
+    "category": "Animals & Nature",
+    "aliases": ["lion"],
+    "tags": [],
+    "unicode_version": "8.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🐯",
+    "description": "tiger face",
+    "category": "Animals & Nature",
+    "aliases": ["tiger"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐅",
+    "description": "tiger",
+    "category": "Animals & Nature",
+    "aliases": ["tiger2"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐆",
+    "description": "leopard",
+    "category": "Animals & Nature",
+    "aliases": ["leopard"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐴",
+    "description": "horse face",
+    "category": "Animals & Nature",
+    "aliases": ["horse"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐎",
+    "description": "horse",
+    "category": "Animals & Nature",
+    "aliases": ["racehorse"],
+    "tags": ["speed"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🦄",
+    "description": "unicorn",
+    "category": "Animals & Nature",
+    "aliases": ["unicorn"],
+    "tags": [],
+    "unicode_version": "8.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🦓",
+    "description": "zebra",
+    "category": "Animals & Nature",
+    "aliases": ["zebra"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🦌",
+    "description": "deer",
+    "category": "Animals & Nature",
+    "aliases": ["deer"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🦬",
+    "description": "bison",
+    "category": "Animals & Nature",
+    "aliases": ["bison"],
+    "tags": [],
+    "unicode_version": "13.0",
+    "ios_version": "14.0"
+  },
+  {
+    "emoji": "🐮",
+    "description": "cow face",
+    "category": "Animals & Nature",
+    "aliases": ["cow"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐂",
+    "description": "ox",
+    "category": "Animals & Nature",
+    "aliases": ["ox"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐃",
+    "description": "water buffalo",
+    "category": "Animals & Nature",
+    "aliases": ["water_buffalo"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐄",
+    "description": "cow",
+    "category": "Animals & Nature",
+    "aliases": ["cow2"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐷",
+    "description": "pig face",
+    "category": "Animals & Nature",
+    "aliases": ["pig"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐖",
+    "description": "pig",
+    "category": "Animals & Nature",
+    "aliases": ["pig2"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐗",
+    "description": "boar",
+    "category": "Animals & Nature",
+    "aliases": ["boar"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐽",
+    "description": "pig nose",
+    "category": "Animals & Nature",
+    "aliases": ["pig_nose"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐏",
+    "description": "ram",
+    "category": "Animals & Nature",
+    "aliases": ["ram"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐑",
+    "description": "ewe",
+    "category": "Animals & Nature",
+    "aliases": ["sheep"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐐",
+    "description": "goat",
+    "category": "Animals & Nature",
+    "aliases": ["goat"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐪",
+    "description": "camel",
+    "category": "Animals & Nature",
+    "aliases": ["dromedary_camel"],
+    "tags": ["desert"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐫",
+    "description": "two-hump camel",
+    "category": "Animals & Nature",
+    "aliases": ["camel"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🦙",
+    "description": "llama",
+    "category": "Animals & Nature",
+    "aliases": ["llama"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🦒",
+    "description": "giraffe",
+    "category": "Animals & Nature",
+    "aliases": ["giraffe"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🐘",
+    "description": "elephant",
+    "category": "Animals & Nature",
+    "aliases": ["elephant"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🦣",
+    "description": "mammoth",
+    "category": "Animals & Nature",
+    "aliases": ["mammoth"],
+    "tags": [],
+    "unicode_version": "13.0",
+    "ios_version": "14.0"
+  },
+  {
+    "emoji": "🦏",
+    "description": "rhinoceros",
+    "category": "Animals & Nature",
+    "aliases": ["rhinoceros"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🦛",
+    "description": "hippopotamus",
+    "category": "Animals & Nature",
+    "aliases": ["hippopotamus"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🐭",
+    "description": "mouse face",
+    "category": "Animals & Nature",
+    "aliases": ["mouse"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐁",
+    "description": "mouse",
+    "category": "Animals & Nature",
+    "aliases": ["mouse2"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐀",
+    "description": "rat",
+    "category": "Animals & Nature",
+    "aliases": ["rat"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐹",
+    "description": "hamster",
+    "category": "Animals & Nature",
+    "aliases": ["hamster"],
+    "tags": ["pet"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐰",
+    "description": "rabbit face",
+    "category": "Animals & Nature",
+    "aliases": ["rabbit"],
+    "tags": ["bunny"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐇",
+    "description": "rabbit",
+    "category": "Animals & Nature",
+    "aliases": ["rabbit2"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐿️",
+    "description": "chipmunk",
+    "category": "Animals & Nature",
+    "aliases": ["chipmunk"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🦫",
+    "description": "beaver",
+    "category": "Animals & Nature",
+    "aliases": ["beaver"],
+    "tags": [],
+    "unicode_version": "13.0",
+    "ios_version": "14.0"
+  },
+  {
+    "emoji": "🦔",
+    "description": "hedgehog",
+    "category": "Animals & Nature",
+    "aliases": ["hedgehog"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🦇",
+    "description": "bat",
+    "category": "Animals & Nature",
+    "aliases": ["bat"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🐻",
+    "description": "bear",
+    "category": "Animals & Nature",
+    "aliases": ["bear"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐻‍❄️",
+    "description": "polar bear",
+    "category": "Animals & Nature",
+    "aliases": ["polar_bear"],
+    "tags": [],
+    "unicode_version": "13.0",
+    "ios_version": "14.0"
+  },
+  {
+    "emoji": "🐨",
+    "description": "koala",
+    "category": "Animals & Nature",
+    "aliases": ["koala"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐼",
+    "description": "panda",
+    "category": "Animals & Nature",
+    "aliases": ["panda_face"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🦥",
+    "description": "sloth",
+    "category": "Animals & Nature",
+    "aliases": ["sloth"],
+    "tags": [],
+    "unicode_version": "12.0",
+    "ios_version": "13.0"
+  },
+  {
+    "emoji": "🦦",
+    "description": "otter",
+    "category": "Animals & Nature",
+    "aliases": ["otter"],
+    "tags": [],
+    "unicode_version": "12.0",
+    "ios_version": "13.0"
+  },
+  {
+    "emoji": "🦨",
+    "description": "skunk",
+    "category": "Animals & Nature",
+    "aliases": ["skunk"],
+    "tags": [],
+    "unicode_version": "12.0",
+    "ios_version": "13.0"
+  },
+  {
+    "emoji": "🦘",
+    "description": "kangaroo",
+    "category": "Animals & Nature",
+    "aliases": ["kangaroo"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🦡",
+    "description": "badger",
+    "category": "Animals & Nature",
+    "aliases": ["badger"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🐾",
+    "description": "paw prints",
+    "category": "Animals & Nature",
+    "aliases": ["feet", "paw_prints"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🦃",
+    "description": "turkey",
+    "category": "Animals & Nature",
+    "aliases": ["turkey"],
+    "tags": ["thanksgiving"],
+    "unicode_version": "8.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🐔",
+    "description": "chicken",
+    "category": "Animals & Nature",
+    "aliases": ["chicken"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐓",
+    "description": "rooster",
+    "category": "Animals & Nature",
+    "aliases": ["rooster"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐣",
+    "description": "hatching chick",
+    "category": "Animals & Nature",
+    "aliases": ["hatching_chick"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐤",
+    "description": "baby chick",
+    "category": "Animals & Nature",
+    "aliases": ["baby_chick"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐥",
+    "description": "front-facing baby chick",
+    "category": "Animals & Nature",
+    "aliases": ["hatched_chick"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐦",
+    "description": "bird",
+    "category": "Animals & Nature",
+    "aliases": ["bird"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐧",
+    "description": "penguin",
+    "category": "Animals & Nature",
+    "aliases": ["penguin"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🕊️",
+    "description": "dove",
+    "category": "Animals & Nature",
+    "aliases": ["dove"],
+    "tags": ["peace"],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🦅",
+    "description": "eagle",
+    "category": "Animals & Nature",
+    "aliases": ["eagle"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🦆",
+    "description": "duck",
+    "category": "Animals & Nature",
+    "aliases": ["duck"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🦢",
+    "description": "swan",
+    "category": "Animals & Nature",
+    "aliases": ["swan"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🦉",
+    "description": "owl",
+    "category": "Animals & Nature",
+    "aliases": ["owl"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🦤",
+    "description": "dodo",
+    "category": "Animals & Nature",
+    "aliases": ["dodo"],
+    "tags": [],
+    "unicode_version": "13.0",
+    "ios_version": "14.0"
+  },
+  {
+    "emoji": "🪶",
+    "description": "feather",
+    "category": "Animals & Nature",
+    "aliases": ["feather"],
+    "tags": [],
+    "unicode_version": "13.0",
+    "ios_version": "14.0"
+  },
+  {
+    "emoji": "🦩",
+    "description": "flamingo",
+    "category": "Animals & Nature",
+    "aliases": ["flamingo"],
+    "tags": [],
+    "unicode_version": "12.0",
+    "ios_version": "13.0"
+  },
+  {
+    "emoji": "🦚",
+    "description": "peacock",
+    "category": "Animals & Nature",
+    "aliases": ["peacock"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🦜",
+    "description": "parrot",
+    "category": "Animals & Nature",
+    "aliases": ["parrot"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🐸",
+    "description": "frog",
+    "category": "Animals & Nature",
+    "aliases": ["frog"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐊",
+    "description": "crocodile",
+    "category": "Animals & Nature",
+    "aliases": ["crocodile"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐢",
+    "description": "turtle",
+    "category": "Animals & Nature",
+    "aliases": ["turtle"],
+    "tags": ["slow"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🦎",
+    "description": "lizard",
+    "category": "Animals & Nature",
+    "aliases": ["lizard"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🐍",
+    "description": "snake",
+    "category": "Animals & Nature",
+    "aliases": ["snake"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐲",
+    "description": "dragon face",
+    "category": "Animals & Nature",
+    "aliases": ["dragon_face"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐉",
+    "description": "dragon",
+    "category": "Animals & Nature",
+    "aliases": ["dragon"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🦕",
+    "description": "sauropod",
+    "category": "Animals & Nature",
+    "aliases": ["sauropod"],
+    "tags": ["dinosaur"],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🦖",
+    "description": "T-Rex",
+    "category": "Animals & Nature",
+    "aliases": ["t-rex"],
+    "tags": ["dinosaur"],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🐳",
+    "description": "spouting whale",
+    "category": "Animals & Nature",
+    "aliases": ["whale"],
+    "tags": ["sea"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐋",
+    "description": "whale",
+    "category": "Animals & Nature",
+    "aliases": ["whale2"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐬",
+    "description": "dolphin",
+    "category": "Animals & Nature",
+    "aliases": ["dolphin", "flipper"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🦭",
+    "description": "seal",
+    "category": "Animals & Nature",
+    "aliases": ["seal"],
+    "tags": [],
+    "unicode_version": "13.0",
+    "ios_version": "14.0"
+  },
+  {
+    "emoji": "🐟",
+    "description": "fish",
+    "category": "Animals & Nature",
+    "aliases": ["fish"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐠",
+    "description": "tropical fish",
+    "category": "Animals & Nature",
+    "aliases": ["tropical_fish"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐡",
+    "description": "blowfish",
+    "category": "Animals & Nature",
+    "aliases": ["blowfish"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🦈",
+    "description": "shark",
+    "category": "Animals & Nature",
+    "aliases": ["shark"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🐙",
+    "description": "octopus",
+    "category": "Animals & Nature",
+    "aliases": ["octopus"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐚",
+    "description": "spiral shell",
+    "category": "Animals & Nature",
+    "aliases": ["shell"],
+    "tags": ["sea", "beach"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐌",
+    "description": "snail",
+    "category": "Animals & Nature",
+    "aliases": ["snail"],
+    "tags": ["slow"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🦋",
+    "description": "butterfly",
+    "category": "Animals & Nature",
+    "aliases": ["butterfly"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🐛",
+    "description": "bug",
+    "category": "Animals & Nature",
+    "aliases": ["bug"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐜",
+    "description": "ant",
+    "category": "Animals & Nature",
+    "aliases": ["ant"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🐝",
+    "description": "honeybee",
+    "category": "Animals & Nature",
+    "aliases": ["bee", "honeybee"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🪲",
+    "description": "beetle",
+    "category": "Animals & Nature",
+    "aliases": ["beetle"],
+    "tags": [],
+    "unicode_version": "13.0",
+    "ios_version": "14.0"
+  },
+  {
+    "emoji": "🐞",
+    "description": "lady beetle",
+    "category": "Animals & Nature",
+    "aliases": ["lady_beetle"],
+    "tags": ["bug"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🦗",
+    "description": "cricket",
+    "category": "Animals & Nature",
+    "aliases": ["cricket"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🪳",
+    "description": "cockroach",
+    "category": "Animals & Nature",
+    "aliases": ["cockroach"],
+    "tags": [],
+    "unicode_version": "13.0",
+    "ios_version": "14.0"
+  },
+  {
+    "emoji": "🕷️",
+    "description": "spider",
+    "category": "Animals & Nature",
+    "aliases": ["spider"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🕸️",
+    "description": "spider web",
+    "category": "Animals & Nature",
+    "aliases": ["spider_web"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🦂",
+    "description": "scorpion",
+    "category": "Animals & Nature",
+    "aliases": ["scorpion"],
+    "tags": [],
+    "unicode_version": "8.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🦟",
+    "description": "mosquito",
+    "category": "Animals & Nature",
+    "aliases": ["mosquito"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🪰",
+    "description": "fly",
+    "category": "Animals & Nature",
+    "aliases": ["fly"],
+    "tags": [],
+    "unicode_version": "13.0",
+    "ios_version": "14.0"
+  },
+  {
+    "emoji": "🪱",
+    "description": "worm",
+    "category": "Animals & Nature",
+    "aliases": ["worm"],
+    "tags": [],
+    "unicode_version": "13.0",
+    "ios_version": "14.0"
+  },
+  {
+    "emoji": "🦠",
+    "description": "microbe",
+    "category": "Animals & Nature",
+    "aliases": ["microbe"],
+    "tags": ["germ"],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "💐",
+    "description": "bouquet",
+    "category": "Animals & Nature",
+    "aliases": ["bouquet"],
+    "tags": ["flowers"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌸",
+    "description": "cherry blossom",
+    "category": "Animals & Nature",
+    "aliases": ["cherry_blossom"],
+    "tags": ["flower", "spring"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "💮",
+    "description": "white flower",
+    "category": "Animals & Nature",
+    "aliases": ["white_flower"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🏵️",
+    "description": "rosette",
+    "category": "Animals & Nature",
+    "aliases": ["rosette"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🌹",
+    "description": "rose",
+    "category": "Animals & Nature",
+    "aliases": ["rose"],
+    "tags": ["flower"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🥀",
+    "description": "wilted flower",
+    "category": "Animals & Nature",
+    "aliases": ["wilted_flower"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🌺",
+    "description": "hibiscus",
+    "category": "Animals & Nature",
+    "aliases": ["hibiscus"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌻",
+    "description": "sunflower",
+    "category": "Animals & Nature",
+    "aliases": ["sunflower"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌼",
+    "description": "blossom",
+    "category": "Animals & Nature",
+    "aliases": ["blossom"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌷",
+    "description": "tulip",
+    "category": "Animals & Nature",
+    "aliases": ["tulip"],
+    "tags": ["flower"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌱",
+    "description": "seedling",
+    "category": "Animals & Nature",
+    "aliases": ["seedling"],
+    "tags": ["plant"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🪴",
+    "description": "potted plant",
+    "category": "Animals & Nature",
+    "aliases": ["potted_plant"],
+    "tags": [],
+    "unicode_version": "13.0",
+    "ios_version": "14.0"
+  },
+  {
+    "emoji": "🌲",
+    "description": "evergreen tree",
+    "category": "Animals & Nature",
+    "aliases": ["evergreen_tree"],
+    "tags": ["wood"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌳",
+    "description": "deciduous tree",
+    "category": "Animals & Nature",
+    "aliases": ["deciduous_tree"],
+    "tags": ["wood"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌴",
+    "description": "palm tree",
+    "category": "Animals & Nature",
+    "aliases": ["palm_tree"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌵",
+    "description": "cactus",
+    "category": "Animals & Nature",
+    "aliases": ["cactus"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌾",
+    "description": "sheaf of rice",
+    "category": "Animals & Nature",
+    "aliases": ["ear_of_rice"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌿",
+    "description": "herb",
+    "category": "Animals & Nature",
+    "aliases": ["herb"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "☘️",
+    "description": "shamrock",
+    "category": "Animals & Nature",
+    "aliases": ["shamrock"],
+    "tags": [],
+    "unicode_version": "4.1",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🍀",
+    "description": "four leaf clover",
+    "category": "Animals & Nature",
+    "aliases": ["four_leaf_clover"],
+    "tags": ["luck"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍁",
+    "description": "maple leaf",
+    "category": "Animals & Nature",
+    "aliases": ["maple_leaf"],
+    "tags": ["canada"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍂",
+    "description": "fallen leaf",
+    "category": "Animals & Nature",
+    "aliases": ["fallen_leaf"],
+    "tags": ["autumn"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍃",
+    "description": "leaf fluttering in wind",
+    "category": "Animals & Nature",
+    "aliases": ["leaves"],
+    "tags": ["leaf"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍇",
+    "description": "grapes",
+    "category": "Food & Drink",
+    "aliases": ["grapes"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍈",
+    "description": "melon",
+    "category": "Food & Drink",
+    "aliases": ["melon"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍉",
+    "description": "watermelon",
+    "category": "Food & Drink",
+    "aliases": ["watermelon"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍊",
+    "description": "tangerine",
+    "category": "Food & Drink",
+    "aliases": ["tangerine", "orange", "mandarin"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍋",
+    "description": "lemon",
+    "category": "Food & Drink",
+    "aliases": ["lemon"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍌",
+    "description": "banana",
+    "category": "Food & Drink",
+    "aliases": ["banana"],
+    "tags": ["fruit"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍍",
+    "description": "pineapple",
+    "category": "Food & Drink",
+    "aliases": ["pineapple"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🥭",
+    "description": "mango",
+    "category": "Food & Drink",
+    "aliases": ["mango"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🍎",
+    "description": "red apple",
+    "category": "Food & Drink",
+    "aliases": ["apple"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍏",
+    "description": "green apple",
+    "category": "Food & Drink",
+    "aliases": ["green_apple"],
+    "tags": ["fruit"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍐",
+    "description": "pear",
+    "category": "Food & Drink",
+    "aliases": ["pear"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍑",
+    "description": "peach",
+    "category": "Food & Drink",
+    "aliases": ["peach"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍒",
+    "description": "cherries",
+    "category": "Food & Drink",
+    "aliases": ["cherries"],
+    "tags": ["fruit"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍓",
+    "description": "strawberry",
+    "category": "Food & Drink",
+    "aliases": ["strawberry"],
+    "tags": ["fruit"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🫐",
+    "description": "blueberries",
+    "category": "Food & Drink",
+    "aliases": ["blueberries"],
+    "tags": [],
+    "unicode_version": "13.0",
+    "ios_version": "14.0"
+  },
+  {
+    "emoji": "🥝",
+    "description": "kiwi fruit",
+    "category": "Food & Drink",
+    "aliases": ["kiwi_fruit"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🍅",
+    "description": "tomato",
+    "category": "Food & Drink",
+    "aliases": ["tomato"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🫒",
+    "description": "olive",
+    "category": "Food & Drink",
+    "aliases": ["olive"],
+    "tags": [],
+    "unicode_version": "13.0",
+    "ios_version": "14.0"
+  },
+  {
+    "emoji": "🥥",
+    "description": "coconut",
+    "category": "Food & Drink",
+    "aliases": ["coconut"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🥑",
+    "description": "avocado",
+    "category": "Food & Drink",
+    "aliases": ["avocado"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🍆",
+    "description": "eggplant",
+    "category": "Food & Drink",
+    "aliases": ["eggplant"],
+    "tags": ["aubergine"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🥔",
+    "description": "potato",
+    "category": "Food & Drink",
+    "aliases": ["potato"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🥕",
+    "description": "carrot",
+    "category": "Food & Drink",
+    "aliases": ["carrot"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🌽",
+    "description": "ear of corn",
+    "category": "Food & Drink",
+    "aliases": ["corn"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌶️",
+    "description": "hot pepper",
+    "category": "Food & Drink",
+    "aliases": ["hot_pepper"],
+    "tags": ["spicy"],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🫑",
+    "description": "bell pepper",
+    "category": "Food & Drink",
+    "aliases": ["bell_pepper"],
+    "tags": [],
+    "unicode_version": "13.0",
+    "ios_version": "14.0"
+  },
+  {
+    "emoji": "🥒",
+    "description": "cucumber",
+    "category": "Food & Drink",
+    "aliases": ["cucumber"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🥬",
+    "description": "leafy green",
+    "category": "Food & Drink",
+    "aliases": ["leafy_green"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🥦",
+    "description": "broccoli",
+    "category": "Food & Drink",
+    "aliases": ["broccoli"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🧄",
+    "description": "garlic",
+    "category": "Food & Drink",
+    "aliases": ["garlic"],
+    "tags": [],
+    "unicode_version": "12.0",
+    "ios_version": "13.0"
+  },
+  {
+    "emoji": "🧅",
+    "description": "onion",
+    "category": "Food & Drink",
+    "aliases": ["onion"],
+    "tags": [],
+    "unicode_version": "12.0",
+    "ios_version": "13.0"
+  },
+  {
+    "emoji": "🍄",
+    "description": "mushroom",
+    "category": "Food & Drink",
+    "aliases": ["mushroom"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🥜",
+    "description": "peanuts",
+    "category": "Food & Drink",
+    "aliases": ["peanuts"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🌰",
+    "description": "chestnut",
+    "category": "Food & Drink",
+    "aliases": ["chestnut"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍞",
+    "description": "bread",
+    "category": "Food & Drink",
+    "aliases": ["bread"],
+    "tags": ["toast"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🥐",
+    "description": "croissant",
+    "category": "Food & Drink",
+    "aliases": ["croissant"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🥖",
+    "description": "baguette bread",
+    "category": "Food & Drink",
+    "aliases": ["baguette_bread"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🫓",
+    "description": "flatbread",
+    "category": "Food & Drink",
+    "aliases": ["flatbread"],
+    "tags": [],
+    "unicode_version": "13.0",
+    "ios_version": "14.0"
+  },
+  {
+    "emoji": "🥨",
+    "description": "pretzel",
+    "category": "Food & Drink",
+    "aliases": ["pretzel"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🥯",
+    "description": "bagel",
+    "category": "Food & Drink",
+    "aliases": ["bagel"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🥞",
+    "description": "pancakes",
+    "category": "Food & Drink",
+    "aliases": ["pancakes"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🧇",
+    "description": "waffle",
+    "category": "Food & Drink",
+    "aliases": ["waffle"],
+    "tags": [],
+    "unicode_version": "12.0",
+    "ios_version": "13.0"
+  },
+  {
+    "emoji": "🧀",
+    "description": "cheese wedge",
+    "category": "Food & Drink",
+    "aliases": ["cheese"],
+    "tags": [],
+    "unicode_version": "8.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🍖",
+    "description": "meat on bone",
+    "category": "Food & Drink",
+    "aliases": ["meat_on_bone"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍗",
+    "description": "poultry leg",
+    "category": "Food & Drink",
+    "aliases": ["poultry_leg"],
+    "tags": ["meat", "chicken"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🥩",
+    "description": "cut of meat",
+    "category": "Food & Drink",
+    "aliases": ["cut_of_meat"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🥓",
+    "description": "bacon",
+    "category": "Food & Drink",
+    "aliases": ["bacon"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🍔",
+    "description": "hamburger",
+    "category": "Food & Drink",
+    "aliases": ["hamburger"],
+    "tags": ["burger"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍟",
+    "description": "french fries",
+    "category": "Food & Drink",
+    "aliases": ["fries"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍕",
+    "description": "pizza",
+    "category": "Food & Drink",
+    "aliases": ["pizza"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌭",
+    "description": "hot dog",
+    "category": "Food & Drink",
+    "aliases": ["hotdog"],
+    "tags": [],
+    "unicode_version": "8.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🥪",
+    "description": "sandwich",
+    "category": "Food & Drink",
+    "aliases": ["sandwich"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🌮",
+    "description": "taco",
+    "category": "Food & Drink",
+    "aliases": ["taco"],
+    "tags": [],
+    "unicode_version": "8.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🌯",
+    "description": "burrito",
+    "category": "Food & Drink",
+    "aliases": ["burrito"],
+    "tags": [],
+    "unicode_version": "8.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🫔",
+    "description": "tamale",
+    "category": "Food & Drink",
+    "aliases": ["tamale"],
+    "tags": [],
+    "unicode_version": "13.0",
+    "ios_version": "14.0"
+  },
+  {
+    "emoji": "🥙",
+    "description": "stuffed flatbread",
+    "category": "Food & Drink",
+    "aliases": ["stuffed_flatbread"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🧆",
+    "description": "falafel",
+    "category": "Food & Drink",
+    "aliases": ["falafel"],
+    "tags": [],
+    "unicode_version": "12.0",
+    "ios_version": "13.0"
+  },
+  {
+    "emoji": "🥚",
+    "description": "egg",
+    "category": "Food & Drink",
+    "aliases": ["egg"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🍳",
+    "description": "cooking",
+    "category": "Food & Drink",
+    "aliases": ["fried_egg"],
+    "tags": ["breakfast"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🥘",
+    "description": "shallow pan of food",
+    "category": "Food & Drink",
+    "aliases": ["shallow_pan_of_food"],
+    "tags": ["paella", "curry"],
+    "unicode_version": "",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🍲",
+    "description": "pot of food",
+    "category": "Food & Drink",
+    "aliases": ["stew"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🫕",
+    "description": "fondue",
+    "category": "Food & Drink",
+    "aliases": ["fondue"],
+    "tags": [],
+    "unicode_version": "13.0",
+    "ios_version": "14.0"
+  },
+  {
+    "emoji": "🥣",
+    "description": "bowl with spoon",
+    "category": "Food & Drink",
+    "aliases": ["bowl_with_spoon"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🥗",
+    "description": "green salad",
+    "category": "Food & Drink",
+    "aliases": ["green_salad"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🍿",
+    "description": "popcorn",
+    "category": "Food & Drink",
+    "aliases": ["popcorn"],
+    "tags": [],
+    "unicode_version": "8.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🧈",
+    "description": "butter",
+    "category": "Food & Drink",
+    "aliases": ["butter"],
+    "tags": [],
+    "unicode_version": "12.0",
+    "ios_version": "13.0"
+  },
+  {
+    "emoji": "🧂",
+    "description": "salt",
+    "category": "Food & Drink",
+    "aliases": ["salt"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🥫",
+    "description": "canned food",
+    "category": "Food & Drink",
+    "aliases": ["canned_food"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🍱",
+    "description": "bento box",
+    "category": "Food & Drink",
+    "aliases": ["bento"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍘",
+    "description": "rice cracker",
+    "category": "Food & Drink",
+    "aliases": ["rice_cracker"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍙",
+    "description": "rice ball",
+    "category": "Food & Drink",
+    "aliases": ["rice_ball"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍚",
+    "description": "cooked rice",
+    "category": "Food & Drink",
+    "aliases": ["rice"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍛",
+    "description": "curry rice",
+    "category": "Food & Drink",
+    "aliases": ["curry"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍜",
+    "description": "steaming bowl",
+    "category": "Food & Drink",
+    "aliases": ["ramen"],
+    "tags": ["noodle"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍝",
+    "description": "spaghetti",
+    "category": "Food & Drink",
+    "aliases": ["spaghetti"],
+    "tags": ["pasta"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍠",
+    "description": "roasted sweet potato",
+    "category": "Food & Drink",
+    "aliases": ["sweet_potato"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍢",
+    "description": "oden",
+    "category": "Food & Drink",
+    "aliases": ["oden"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍣",
+    "description": "sushi",
+    "category": "Food & Drink",
+    "aliases": ["sushi"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍤",
+    "description": "fried shrimp",
+    "category": "Food & Drink",
+    "aliases": ["fried_shrimp"],
+    "tags": ["tempura"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍥",
+    "description": "fish cake with swirl",
+    "category": "Food & Drink",
+    "aliases": ["fish_cake"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🥮",
+    "description": "moon cake",
+    "category": "Food & Drink",
+    "aliases": ["moon_cake"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🍡",
+    "description": "dango",
+    "category": "Food & Drink",
+    "aliases": ["dango"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🥟",
+    "description": "dumpling",
+    "category": "Food & Drink",
+    "aliases": ["dumpling"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🥠",
+    "description": "fortune cookie",
+    "category": "Food & Drink",
+    "aliases": ["fortune_cookie"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🥡",
+    "description": "takeout box",
+    "category": "Food & Drink",
+    "aliases": ["takeout_box"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🦀",
+    "description": "crab",
+    "category": "Food & Drink",
+    "aliases": ["crab"],
+    "tags": [],
+    "unicode_version": "8.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🦞",
+    "description": "lobster",
+    "category": "Food & Drink",
+    "aliases": ["lobster"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🦐",
+    "description": "shrimp",
+    "category": "Food & Drink",
+    "aliases": ["shrimp"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🦑",
+    "description": "squid",
+    "category": "Food & Drink",
+    "aliases": ["squid"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🦪",
+    "description": "oyster",
+    "category": "Food & Drink",
+    "aliases": ["oyster"],
+    "tags": [],
+    "unicode_version": "12.0",
+    "ios_version": "13.0"
+  },
+  {
+    "emoji": "🍦",
+    "description": "soft ice cream",
+    "category": "Food & Drink",
+    "aliases": ["icecream"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍧",
+    "description": "shaved ice",
+    "category": "Food & Drink",
+    "aliases": ["shaved_ice"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍨",
+    "description": "ice cream",
+    "category": "Food & Drink",
+    "aliases": ["ice_cream"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍩",
+    "description": "doughnut",
+    "category": "Food & Drink",
+    "aliases": ["doughnut"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍪",
+    "description": "cookie",
+    "category": "Food & Drink",
+    "aliases": ["cookie"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🎂",
+    "description": "birthday cake",
+    "category": "Food & Drink",
+    "aliases": ["birthday"],
+    "tags": ["party"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍰",
+    "description": "shortcake",
+    "category": "Food & Drink",
+    "aliases": ["cake"],
+    "tags": ["dessert"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🧁",
+    "description": "cupcake",
+    "category": "Food & Drink",
+    "aliases": ["cupcake"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🥧",
+    "description": "pie",
+    "category": "Food & Drink",
+    "aliases": ["pie"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🍫",
+    "description": "chocolate bar",
+    "category": "Food & Drink",
+    "aliases": ["chocolate_bar"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍬",
+    "description": "candy",
+    "category": "Food & Drink",
+    "aliases": ["candy"],
+    "tags": ["sweet"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍭",
+    "description": "lollipop",
+    "category": "Food & Drink",
+    "aliases": ["lollipop"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍮",
+    "description": "custard",
+    "category": "Food & Drink",
+    "aliases": ["custard"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍯",
+    "description": "honey pot",
+    "category": "Food & Drink",
+    "aliases": ["honey_pot"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍼",
+    "description": "baby bottle",
+    "category": "Food & Drink",
+    "aliases": ["baby_bottle"],
+    "tags": ["milk"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🥛",
+    "description": "glass of milk",
+    "category": "Food & Drink",
+    "aliases": ["milk_glass"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "☕",
+    "description": "hot beverage",
+    "category": "Food & Drink",
+    "aliases": ["coffee"],
+    "tags": ["cafe", "espresso"],
+    "unicode_version": "4.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🫖",
+    "description": "teapot",
+    "category": "Food & Drink",
+    "aliases": ["teapot"],
+    "tags": [],
+    "unicode_version": "13.0",
+    "ios_version": "14.0"
+  },
+  {
+    "emoji": "🍵",
+    "description": "teacup without handle",
+    "category": "Food & Drink",
+    "aliases": ["tea"],
+    "tags": ["green", "breakfast"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍶",
+    "description": "sake",
+    "category": "Food & Drink",
+    "aliases": ["sake"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍾",
+    "description": "bottle with popping cork",
+    "category": "Food & Drink",
+    "aliases": ["champagne"],
+    "tags": ["bottle", "bubbly", "celebration"],
+    "unicode_version": "8.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🍷",
+    "description": "wine glass",
+    "category": "Food & Drink",
+    "aliases": ["wine_glass"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍸",
+    "description": "cocktail glass",
+    "category": "Food & Drink",
+    "aliases": ["cocktail"],
+    "tags": ["drink"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍹",
+    "description": "tropical drink",
+    "category": "Food & Drink",
+    "aliases": ["tropical_drink"],
+    "tags": ["summer", "vacation"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍺",
+    "description": "beer mug",
+    "category": "Food & Drink",
+    "aliases": ["beer"],
+    "tags": ["drink"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🍻",
+    "description": "clinking beer mugs",
+    "category": "Food & Drink",
+    "aliases": ["beers"],
+    "tags": ["drinks"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🥂",
+    "description": "clinking glasses",
+    "category": "Food & Drink",
+    "aliases": ["clinking_glasses"],
+    "tags": ["cheers", "toast"],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🥃",
+    "description": "tumbler glass",
+    "category": "Food & Drink",
+    "aliases": ["tumbler_glass"],
+    "tags": ["whisky"],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🥤",
+    "description": "cup with straw",
+    "category": "Food & Drink",
+    "aliases": ["cup_with_straw"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🧋",
+    "description": "bubble tea",
+    "category": "Food & Drink",
+    "aliases": ["bubble_tea"],
+    "tags": [],
+    "unicode_version": "13.0",
+    "ios_version": "14.0"
+  },
+  {
+    "emoji": "🧃",
+    "description": "beverage box",
+    "category": "Food & Drink",
+    "aliases": ["beverage_box"],
+    "tags": [],
+    "unicode_version": "12.0",
+    "ios_version": "13.0"
+  },
+  {
+    "emoji": "🧉",
+    "description": "mate",
+    "category": "Food & Drink",
+    "aliases": ["mate"],
+    "tags": [],
+    "unicode_version": "12.0",
+    "ios_version": "13.0"
+  },
+  {
+    "emoji": "🧊",
+    "description": "ice",
+    "category": "Food & Drink",
+    "aliases": ["ice_cube"],
+    "tags": [],
+    "unicode_version": "12.0",
+    "ios_version": "13.0"
+  },
+  {
+    "emoji": "🥢",
+    "description": "chopsticks",
+    "category": "Food & Drink",
+    "aliases": ["chopsticks"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🍽️",
+    "description": "fork and knife with plate",
+    "category": "Food & Drink",
+    "aliases": ["plate_with_cutlery"],
+    "tags": ["dining", "dinner"],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🍴",
+    "description": "fork and knife",
+    "category": "Food & Drink",
+    "aliases": ["fork_and_knife"],
+    "tags": ["cutlery"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🥄",
+    "description": "spoon",
+    "category": "Food & Drink",
+    "aliases": ["spoon"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🔪",
+    "description": "kitchen knife",
+    "category": "Food & Drink",
+    "aliases": ["hocho", "knife"],
+    "tags": ["cut", "chop"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🏺",
+    "description": "amphora",
+    "category": "Food & Drink",
+    "aliases": ["amphora"],
+    "tags": [],
+    "unicode_version": "8.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🌍",
+    "description": "globe showing Europe-Africa",
+    "category": "Travel & Places",
+    "aliases": ["earth_africa"],
+    "tags": ["globe", "world", "international"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌎",
+    "description": "globe showing Americas",
+    "category": "Travel & Places",
+    "aliases": ["earth_americas"],
+    "tags": ["globe", "world", "international"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌏",
+    "description": "globe showing Asia-Australia",
+    "category": "Travel & Places",
+    "aliases": ["earth_asia"],
+    "tags": ["globe", "world", "international"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌐",
+    "description": "globe with meridians",
+    "category": "Travel & Places",
+    "aliases": ["globe_with_meridians"],
+    "tags": ["world", "global", "international"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🗺️",
+    "description": "world map",
+    "category": "Travel & Places",
+    "aliases": ["world_map"],
+    "tags": ["travel"],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🗾",
+    "description": "map of Japan",
+    "category": "Travel & Places",
+    "aliases": ["japan"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🧭",
+    "description": "compass",
+    "category": "Travel & Places",
+    "aliases": ["compass"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🏔️",
+    "description": "snow-capped mountain",
+    "category": "Travel & Places",
+    "aliases": ["mountain_snow"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "⛰️",
+    "description": "mountain",
+    "category": "Travel & Places",
+    "aliases": ["mountain"],
+    "tags": [],
+    "unicode_version": "5.2",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🌋",
+    "description": "volcano",
+    "category": "Travel & Places",
+    "aliases": ["volcano"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🗻",
+    "description": "mount fuji",
+    "category": "Travel & Places",
+    "aliases": ["mount_fuji"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🏕️",
+    "description": "camping",
+    "category": "Travel & Places",
+    "aliases": ["camping"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🏖️",
+    "description": "beach with umbrella",
+    "category": "Travel & Places",
+    "aliases": ["beach_umbrella"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🏜️",
+    "description": "desert",
+    "category": "Travel & Places",
+    "aliases": ["desert"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🏝️",
+    "description": "desert island",
+    "category": "Travel & Places",
+    "aliases": ["desert_island"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🏞️",
+    "description": "national park",
+    "category": "Travel & Places",
+    "aliases": ["national_park"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🏟️",
+    "description": "stadium",
+    "category": "Travel & Places",
+    "aliases": ["stadium"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🏛️",
+    "description": "classical building",
+    "category": "Travel & Places",
+    "aliases": ["classical_building"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🏗️",
+    "description": "building construction",
+    "category": "Travel & Places",
+    "aliases": ["building_construction"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🧱",
+    "description": "brick",
+    "category": "Travel & Places",
+    "aliases": ["bricks"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🪨",
+    "description": "rock",
+    "category": "Travel & Places",
+    "aliases": ["rock"],
+    "tags": [],
+    "unicode_version": "13.0",
+    "ios_version": "14.0"
+  },
+  {
+    "emoji": "🪵",
+    "description": "wood",
+    "category": "Travel & Places",
+    "aliases": ["wood"],
+    "tags": [],
+    "unicode_version": "13.0",
+    "ios_version": "14.0"
+  },
+  {
+    "emoji": "🛖",
+    "description": "hut",
+    "category": "Travel & Places",
+    "aliases": ["hut"],
+    "tags": [],
+    "unicode_version": "13.0",
+    "ios_version": "14.0"
+  },
+  {
+    "emoji": "🏘️",
+    "description": "houses",
+    "category": "Travel & Places",
+    "aliases": ["houses"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🏚️",
+    "description": "derelict house",
+    "category": "Travel & Places",
+    "aliases": ["derelict_house"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🏠",
+    "description": "house",
+    "category": "Travel & Places",
+    "aliases": ["house"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🏡",
+    "description": "house with garden",
+    "category": "Travel & Places",
+    "aliases": ["house_with_garden"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🏢",
+    "description": "office building",
+    "category": "Travel & Places",
+    "aliases": ["office"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🏣",
+    "description": "Japanese post office",
+    "category": "Travel & Places",
+    "aliases": ["post_office"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🏤",
+    "description": "post office",
+    "category": "Travel & Places",
+    "aliases": ["european_post_office"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🏥",
+    "description": "hospital",
+    "category": "Travel & Places",
+    "aliases": ["hospital"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🏦",
+    "description": "bank",
+    "category": "Travel & Places",
+    "aliases": ["bank"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🏨",
+    "description": "hotel",
+    "category": "Travel & Places",
+    "aliases": ["hotel"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🏩",
+    "description": "love hotel",
+    "category": "Travel & Places",
+    "aliases": ["love_hotel"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🏪",
+    "description": "convenience store",
+    "category": "Travel & Places",
+    "aliases": ["convenience_store"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🏫",
+    "description": "school",
+    "category": "Travel & Places",
+    "aliases": ["school"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🏬",
+    "description": "department store",
+    "category": "Travel & Places",
+    "aliases": ["department_store"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🏭",
+    "description": "factory",
+    "category": "Travel & Places",
+    "aliases": ["factory"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🏯",
+    "description": "Japanese castle",
+    "category": "Travel & Places",
+    "aliases": ["japanese_castle"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🏰",
+    "description": "castle",
+    "category": "Travel & Places",
+    "aliases": ["european_castle"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "💒",
+    "description": "wedding",
+    "category": "Travel & Places",
+    "aliases": ["wedding"],
+    "tags": ["marriage"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🗼",
+    "description": "Tokyo tower",
+    "category": "Travel & Places",
+    "aliases": ["tokyo_tower"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🗽",
+    "description": "Statue of Liberty",
+    "category": "Travel & Places",
+    "aliases": ["statue_of_liberty"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "⛪",
+    "description": "church",
+    "category": "Travel & Places",
+    "aliases": ["church"],
+    "tags": [],
+    "unicode_version": "5.2",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🕌",
+    "description": "mosque",
+    "category": "Travel & Places",
+    "aliases": ["mosque"],
+    "tags": [],
+    "unicode_version": "8.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🛕",
+    "description": "hindu temple",
+    "category": "Travel & Places",
+    "aliases": ["hindu_temple"],
+    "tags": [],
+    "unicode_version": "12.0",
+    "ios_version": "13.0"
+  },
+  {
+    "emoji": "🕍",
+    "description": "synagogue",
+    "category": "Travel & Places",
+    "aliases": ["synagogue"],
+    "tags": [],
+    "unicode_version": "8.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "⛩️",
+    "description": "shinto shrine",
+    "category": "Travel & Places",
+    "aliases": ["shinto_shrine"],
+    "tags": [],
+    "unicode_version": "5.2",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🕋",
+    "description": "kaaba",
+    "category": "Travel & Places",
+    "aliases": ["kaaba"],
+    "tags": [],
+    "unicode_version": "8.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "⛲",
+    "description": "fountain",
+    "category": "Travel & Places",
+    "aliases": ["fountain"],
+    "tags": [],
+    "unicode_version": "5.2",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "⛺",
+    "description": "tent",
+    "category": "Travel & Places",
+    "aliases": ["tent"],
+    "tags": ["camping"],
+    "unicode_version": "5.2",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌁",
+    "description": "foggy",
+    "category": "Travel & Places",
+    "aliases": ["foggy"],
+    "tags": ["karl"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌃",
+    "description": "night with stars",
+    "category": "Travel & Places",
+    "aliases": ["night_with_stars"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🏙️",
+    "description": "cityscape",
+    "category": "Travel & Places",
+    "aliases": ["cityscape"],
+    "tags": ["skyline"],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🌄",
+    "description": "sunrise over mountains",
+    "category": "Travel & Places",
+    "aliases": ["sunrise_over_mountains"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌅",
+    "description": "sunrise",
+    "category": "Travel & Places",
+    "aliases": ["sunrise"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌆",
+    "description": "cityscape at dusk",
+    "category": "Travel & Places",
+    "aliases": ["city_sunset"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌇",
+    "description": "sunset",
+    "category": "Travel & Places",
+    "aliases": ["city_sunrise"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌉",
+    "description": "bridge at night",
+    "category": "Travel & Places",
+    "aliases": ["bridge_at_night"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "♨️",
+    "description": "hot springs",
+    "category": "Travel & Places",
+    "aliases": ["hotsprings"],
+    "tags": [],
+    "unicode_version": "",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🎠",
+    "description": "carousel horse",
+    "category": "Travel & Places",
+    "aliases": ["carousel_horse"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🎡",
+    "description": "ferris wheel",
+    "category": "Travel & Places",
+    "aliases": ["ferris_wheel"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🎢",
+    "description": "roller coaster",
+    "category": "Travel & Places",
+    "aliases": ["roller_coaster"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "💈",
+    "description": "barber pole",
+    "category": "Travel & Places",
+    "aliases": ["barber"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🎪",
+    "description": "circus tent",
+    "category": "Travel & Places",
+    "aliases": ["circus_tent"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚂",
+    "description": "locomotive",
+    "category": "Travel & Places",
+    "aliases": ["steam_locomotive"],
+    "tags": ["train"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚃",
+    "description": "railway car",
+    "category": "Travel & Places",
+    "aliases": ["railway_car"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚄",
+    "description": "high-speed train",
+    "category": "Travel & Places",
+    "aliases": ["bullettrain_side"],
+    "tags": ["train"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚅",
+    "description": "bullet train",
+    "category": "Travel & Places",
+    "aliases": ["bullettrain_front"],
+    "tags": ["train"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚆",
+    "description": "train",
+    "category": "Travel & Places",
+    "aliases": ["train2"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚇",
+    "description": "metro",
+    "category": "Travel & Places",
+    "aliases": ["metro"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚈",
+    "description": "light rail",
+    "category": "Travel & Places",
+    "aliases": ["light_rail"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚉",
+    "description": "station",
+    "category": "Travel & Places",
+    "aliases": ["station"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚊",
+    "description": "tram",
+    "category": "Travel & Places",
+    "aliases": ["tram"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚝",
+    "description": "monorail",
+    "category": "Travel & Places",
+    "aliases": ["monorail"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚞",
+    "description": "mountain railway",
+    "category": "Travel & Places",
+    "aliases": ["mountain_railway"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚋",
+    "description": "tram car",
+    "category": "Travel & Places",
+    "aliases": ["train"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚌",
+    "description": "bus",
+    "category": "Travel & Places",
+    "aliases": ["bus"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚍",
+    "description": "oncoming bus",
+    "category": "Travel & Places",
+    "aliases": ["oncoming_bus"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚎",
+    "description": "trolleybus",
+    "category": "Travel & Places",
+    "aliases": ["trolleybus"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚐",
+    "description": "minibus",
+    "category": "Travel & Places",
+    "aliases": ["minibus"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚑",
+    "description": "ambulance",
+    "category": "Travel & Places",
+    "aliases": ["ambulance"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚒",
+    "description": "fire engine",
+    "category": "Travel & Places",
+    "aliases": ["fire_engine"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚓",
+    "description": "police car",
+    "category": "Travel & Places",
+    "aliases": ["police_car"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚔",
+    "description": "oncoming police car",
+    "category": "Travel & Places",
+    "aliases": ["oncoming_police_car"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚕",
+    "description": "taxi",
+    "category": "Travel & Places",
+    "aliases": ["taxi"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚖",
+    "description": "oncoming taxi",
+    "category": "Travel & Places",
+    "aliases": ["oncoming_taxi"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚗",
+    "description": "automobile",
+    "category": "Travel & Places",
+    "aliases": ["car", "red_car"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚘",
+    "description": "oncoming automobile",
+    "category": "Travel & Places",
+    "aliases": ["oncoming_automobile"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚙",
+    "description": "sport utility vehicle",
+    "category": "Travel & Places",
+    "aliases": ["blue_car"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🛻",
+    "description": "pickup truck",
+    "category": "Travel & Places",
+    "aliases": ["pickup_truck"],
+    "tags": [],
+    "unicode_version": "13.0",
+    "ios_version": "14.0"
+  },
+  {
+    "emoji": "🚚",
+    "description": "delivery truck",
+    "category": "Travel & Places",
+    "aliases": ["truck"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚛",
+    "description": "articulated lorry",
+    "category": "Travel & Places",
+    "aliases": ["articulated_lorry"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚜",
+    "description": "tractor",
+    "category": "Travel & Places",
+    "aliases": ["tractor"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🏎️",
+    "description": "racing car",
+    "category": "Travel & Places",
+    "aliases": ["racing_car"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🏍️",
+    "description": "motorcycle",
+    "category": "Travel & Places",
+    "aliases": ["motorcycle"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🛵",
+    "description": "motor scooter",
+    "category": "Travel & Places",
+    "aliases": ["motor_scooter"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🦽",
+    "description": "manual wheelchair",
+    "category": "Travel & Places",
+    "aliases": ["manual_wheelchair"],
+    "tags": [],
+    "unicode_version": "12.0",
+    "ios_version": "13.0"
+  },
+  {
+    "emoji": "🦼",
+    "description": "motorized wheelchair",
+    "category": "Travel & Places",
+    "aliases": ["motorized_wheelchair"],
+    "tags": [],
+    "unicode_version": "12.0",
+    "ios_version": "13.0"
+  },
+  {
+    "emoji": "🛺",
+    "description": "auto rickshaw",
+    "category": "Travel & Places",
+    "aliases": ["auto_rickshaw"],
+    "tags": [],
+    "unicode_version": "12.0",
+    "ios_version": "13.0"
+  },
+  {
+    "emoji": "🚲",
+    "description": "bicycle",
+    "category": "Travel & Places",
+    "aliases": ["bike"],
+    "tags": ["bicycle"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🛴",
+    "description": "kick scooter",
+    "category": "Travel & Places",
+    "aliases": ["kick_scooter"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🛹",
+    "description": "skateboard",
+    "category": "Travel & Places",
+    "aliases": ["skateboard"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🛼",
+    "description": "roller skate",
+    "category": "Travel & Places",
+    "aliases": ["roller_skate"],
+    "tags": [],
+    "unicode_version": "13.0",
+    "ios_version": "14.0"
+  },
+  {
+    "emoji": "🚏",
+    "description": "bus stop",
+    "category": "Travel & Places",
+    "aliases": ["busstop"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🛣️",
+    "description": "motorway",
+    "category": "Travel & Places",
+    "aliases": ["motorway"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🛤️",
+    "description": "railway track",
+    "category": "Travel & Places",
+    "aliases": ["railway_track"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🛢️",
+    "description": "oil drum",
+    "category": "Travel & Places",
+    "aliases": ["oil_drum"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "⛽",
+    "description": "fuel pump",
+    "category": "Travel & Places",
+    "aliases": ["fuelpump"],
+    "tags": [],
+    "unicode_version": "5.2",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚨",
+    "description": "police car light",
+    "category": "Travel & Places",
+    "aliases": ["rotating_light"],
+    "tags": ["911", "emergency"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚥",
+    "description": "horizontal traffic light",
+    "category": "Travel & Places",
+    "aliases": ["traffic_light"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚦",
+    "description": "vertical traffic light",
+    "category": "Travel & Places",
+    "aliases": ["vertical_traffic_light"],
+    "tags": ["semaphore"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🛑",
+    "description": "stop sign",
+    "category": "Travel & Places",
+    "aliases": ["stop_sign"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🚧",
+    "description": "construction",
+    "category": "Travel & Places",
+    "aliases": ["construction"],
+    "tags": ["wip"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "⚓",
+    "description": "anchor",
+    "category": "Travel & Places",
+    "aliases": ["anchor"],
+    "tags": ["ship"],
+    "unicode_version": "4.1",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "⛵",
+    "description": "sailboat",
+    "category": "Travel & Places",
+    "aliases": ["boat", "sailboat"],
+    "tags": [],
+    "unicode_version": "5.2",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🛶",
+    "description": "canoe",
+    "category": "Travel & Places",
+    "aliases": ["canoe"],
+    "tags": [],
+    "unicode_version": "9.0",
+    "ios_version": "10.2"
+  },
+  {
+    "emoji": "🚤",
+    "description": "speedboat",
+    "category": "Travel & Places",
+    "aliases": ["speedboat"],
+    "tags": ["ship"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🛳️",
+    "description": "passenger ship",
+    "category": "Travel & Places",
+    "aliases": ["passenger_ship"],
+    "tags": ["cruise"],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "⛴️",
+    "description": "ferry",
+    "category": "Travel & Places",
+    "aliases": ["ferry"],
+    "tags": [],
+    "unicode_version": "5.2",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🛥️",
+    "description": "motor boat",
+    "category": "Travel & Places",
+    "aliases": ["motor_boat"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🚢",
+    "description": "ship",
+    "category": "Travel & Places",
+    "aliases": ["ship"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "✈️",
+    "description": "airplane",
+    "category": "Travel & Places",
+    "aliases": ["airplane"],
+    "tags": ["flight"],
+    "unicode_version": "",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🛩️",
+    "description": "small airplane",
+    "category": "Travel & Places",
+    "aliases": ["small_airplane"],
+    "tags": ["flight"],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🛫",
+    "description": "airplane departure",
+    "category": "Travel & Places",
+    "aliases": ["flight_departure"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🛬",
+    "description": "airplane arrival",
+    "category": "Travel & Places",
+    "aliases": ["flight_arrival"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🪂",
+    "description": "parachute",
+    "category": "Travel & Places",
+    "aliases": ["parachute"],
+    "tags": [],
+    "unicode_version": "12.0",
+    "ios_version": "13.0"
+  },
+  {
+    "emoji": "💺",
+    "description": "seat",
+    "category": "Travel & Places",
+    "aliases": ["seat"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚁",
+    "description": "helicopter",
+    "category": "Travel & Places",
+    "aliases": ["helicopter"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚟",
+    "description": "suspension railway",
+    "category": "Travel & Places",
+    "aliases": ["suspension_railway"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚠",
+    "description": "mountain cableway",
+    "category": "Travel & Places",
+    "aliases": ["mountain_cableway"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🚡",
+    "description": "aerial tramway",
+    "category": "Travel & Places",
+    "aliases": ["aerial_tramway"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🛰️",
+    "description": "satellite",
+    "category": "Travel & Places",
+    "aliases": ["artificial_satellite"],
+    "tags": ["orbit", "space"],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🚀",
+    "description": "rocket",
+    "category": "Travel & Places",
+    "aliases": ["rocket"],
+    "tags": ["ship", "launch"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🛸",
+    "description": "flying saucer",
+    "category": "Travel & Places",
+    "aliases": ["flying_saucer"],
+    "tags": ["ufo"],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "🛎️",
+    "description": "bellhop bell",
+    "category": "Travel & Places",
+    "aliases": ["bellhop_bell"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🧳",
+    "description": "luggage",
+    "category": "Travel & Places",
+    "aliases": ["luggage"],
+    "tags": [],
+    "unicode_version": "11.0",
+    "ios_version": "12.1"
+  },
+  {
+    "emoji": "⌛",
+    "description": "hourglass done",
+    "category": "Travel & Places",
+    "aliases": ["hourglass"],
+    "tags": ["time"],
+    "unicode_version": "",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "⏳",
+    "description": "hourglass not done",
+    "category": "Travel & Places",
+    "aliases": ["hourglass_flowing_sand"],
+    "tags": ["time"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "⌚",
+    "description": "watch",
+    "category": "Travel & Places",
+    "aliases": ["watch"],
+    "tags": ["time"],
+    "unicode_version": "",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "⏰",
+    "description": "alarm clock",
+    "category": "Travel & Places",
+    "aliases": ["alarm_clock"],
+    "tags": ["morning"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "⏱️",
+    "description": "stopwatch",
+    "category": "Travel & Places",
+    "aliases": ["stopwatch"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "⏲️",
+    "description": "timer clock",
+    "category": "Travel & Places",
+    "aliases": ["timer_clock"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🕰️",
+    "description": "mantelpiece clock",
+    "category": "Travel & Places",
+    "aliases": ["mantelpiece_clock"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🕛",
+    "description": "twelve o’clock",
+    "category": "Travel & Places",
+    "aliases": ["clock12"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🕧",
+    "description": "twelve-thirty",
+    "category": "Travel & Places",
+    "aliases": ["clock1230"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🕐",
+    "description": "one o’clock",
+    "category": "Travel & Places",
+    "aliases": ["clock1"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🕜",
+    "description": "one-thirty",
+    "category": "Travel & Places",
+    "aliases": ["clock130"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🕑",
+    "description": "two o’clock",
+    "category": "Travel & Places",
+    "aliases": ["clock2"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🕝",
+    "description": "two-thirty",
+    "category": "Travel & Places",
+    "aliases": ["clock230"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🕒",
+    "description": "three o’clock",
+    "category": "Travel & Places",
+    "aliases": ["clock3"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🕞",
+    "description": "three-thirty",
+    "category": "Travel & Places",
+    "aliases": ["clock330"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🕓",
+    "description": "four o’clock",
+    "category": "Travel & Places",
+    "aliases": ["clock4"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🕟",
+    "description": "four-thirty",
+    "category": "Travel & Places",
+    "aliases": ["clock430"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🕔",
+    "description": "five o’clock",
+    "category": "Travel & Places",
+    "aliases": ["clock5"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🕠",
+    "description": "five-thirty",
+    "category": "Travel & Places",
+    "aliases": ["clock530"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🕕",
+    "description": "six o’clock",
+    "category": "Travel & Places",
+    "aliases": ["clock6"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🕡",
+    "description": "six-thirty",
+    "category": "Travel & Places",
+    "aliases": ["clock630"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🕖",
+    "description": "seven o’clock",
+    "category": "Travel & Places",
+    "aliases": ["clock7"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🕢",
+    "description": "seven-thirty",
+    "category": "Travel & Places",
+    "aliases": ["clock730"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🕗",
+    "description": "eight o’clock",
+    "category": "Travel & Places",
+    "aliases": ["clock8"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🕣",
+    "description": "eight-thirty",
+    "category": "Travel & Places",
+    "aliases": ["clock830"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🕘",
+    "description": "nine o’clock",
+    "category": "Travel & Places",
+    "aliases": ["clock9"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🕤",
+    "description": "nine-thirty",
+    "category": "Travel & Places",
+    "aliases": ["clock930"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🕙",
+    "description": "ten o’clock",
+    "category": "Travel & Places",
+    "aliases": ["clock10"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🕥",
+    "description": "ten-thirty",
+    "category": "Travel & Places",
+    "aliases": ["clock1030"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🕚",
+    "description": "eleven o’clock",
+    "category": "Travel & Places",
+    "aliases": ["clock11"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🕦",
+    "description": "eleven-thirty",
+    "category": "Travel & Places",
+    "aliases": ["clock1130"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌑",
+    "description": "new moon",
+    "category": "Travel & Places",
+    "aliases": ["new_moon"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌒",
+    "description": "waxing crescent moon",
+    "category": "Travel & Places",
+    "aliases": ["waxing_crescent_moon"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌓",
+    "description": "first quarter moon",
+    "category": "Travel & Places",
+    "aliases": ["first_quarter_moon"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌔",
+    "description": "waxing gibbous moon",
+    "category": "Travel & Places",
+    "aliases": ["moon", "waxing_gibbous_moon"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌕",
+    "description": "full moon",
+    "category": "Travel & Places",
+    "aliases": ["full_moon"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌖",
+    "description": "waning gibbous moon",
+    "category": "Travel & Places",
+    "aliases": ["waning_gibbous_moon"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌗",
+    "description": "last quarter moon",
+    "category": "Travel & Places",
+    "aliases": ["last_quarter_moon"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌘",
+    "description": "waning crescent moon",
+    "category": "Travel & Places",
+    "aliases": ["waning_crescent_moon"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌙",
+    "description": "crescent moon",
+    "category": "Travel & Places",
+    "aliases": ["crescent_moon"],
+    "tags": ["night"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌚",
+    "description": "new moon face",
+    "category": "Travel & Places",
+    "aliases": ["new_moon_with_face"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌛",
+    "description": "first quarter moon face",
+    "category": "Travel & Places",
+    "aliases": ["first_quarter_moon_with_face"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌜",
+    "description": "last quarter moon face",
+    "category": "Travel & Places",
+    "aliases": ["last_quarter_moon_with_face"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌡️",
+    "description": "thermometer",
+    "category": "Travel & Places",
+    "aliases": ["thermometer"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "☀️",
+    "description": "sun",
+    "category": "Travel & Places",
+    "aliases": ["sunny"],
+    "tags": ["weather"],
+    "unicode_version": "",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌝",
+    "description": "full moon face",
+    "category": "Travel & Places",
+    "aliases": ["full_moon_with_face"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌞",
+    "description": "sun with face",
+    "category": "Travel & Places",
+    "aliases": ["sun_with_face"],
+    "tags": ["summer"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🪐",
+    "description": "ringed planet",
+    "category": "Travel & Places",
+    "aliases": ["ringed_planet"],
+    "tags": [],
+    "unicode_version": "12.0",
+    "ios_version": "13.0"
+  },
+  {
+    "emoji": "⭐",
+    "description": "star",
+    "category": "Travel & Places",
+    "aliases": ["star"],
+    "tags": [],
+    "unicode_version": "5.1",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌟",
+    "description": "glowing star",
+    "category": "Travel & Places",
+    "aliases": ["star2"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌠",
+    "description": "shooting star",
+    "category": "Travel & Places",
+    "aliases": ["stars"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌌",
+    "description": "milky way",
+    "category": "Travel & Places",
+    "aliases": ["milky_way"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "☁️",
+    "description": "cloud",
+    "category": "Travel & Places",
+    "aliases": ["cloud"],
+    "tags": [],
+    "unicode_version": "",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "⛅",
+    "description": "sun behind cloud",
+    "category": "Travel & Places",
+    "aliases": ["partly_sunny"],
+    "tags": ["weather", "cloud"],
+    "unicode_version": "5.2",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "⛈️",
+    "description": "cloud with lightning and rain",
+    "category": "Travel & Places",
+    "aliases": ["cloud_with_lightning_and_rain"],
+    "tags": [],
+    "unicode_version": "5.2",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🌤️",
+    "description": "sun behind small cloud",
+    "category": "Travel & Places",
+    "aliases": ["sun_behind_small_cloud"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🌥️",
+    "description": "sun behind large cloud",
+    "category": "Travel & Places",
+    "aliases": ["sun_behind_large_cloud"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🌦️",
+    "description": "sun behind rain cloud",
+    "category": "Travel & Places",
+    "aliases": ["sun_behind_rain_cloud"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🌧️",
+    "description": "cloud with rain",
+    "category": "Travel & Places",
+    "aliases": ["cloud_with_rain"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🌨️",
+    "description": "cloud with snow",
+    "category": "Travel & Places",
+    "aliases": ["cloud_with_snow"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🌩️",
+    "description": "cloud with lightning",
+    "category": "Travel & Places",
+    "aliases": ["cloud_with_lightning"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🌪️",
+    "description": "tornado",
+    "category": "Travel & Places",
+    "aliases": ["tornado"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🌫️",
+    "description": "fog",
+    "category": "Travel & Places",
+    "aliases": ["fog"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🌬️",
+    "description": "wind face",
+    "category": "Travel & Places",
+    "aliases": ["wind_face"],
+    "tags": [],
+    "unicode_version": "7.0",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "🌀",
+    "description": "cyclone",
+    "category": "Travel & Places",
+    "aliases": ["cyclone"],
+    "tags": ["swirl"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌈",
+    "description": "rainbow",
+    "category": "Travel & Places",
+    "aliases": ["rainbow"],
+    "tags": [],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌂",
+    "description": "closed umbrella",
+    "category": "Travel & Places",
+    "aliases": ["closed_umbrella"],
+    "tags": ["weather", "rain"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "☂️",
+    "description": "umbrella",
+    "category": "Travel & Places",
+    "aliases": ["open_umbrella"],
+    "tags": [],
+    "unicode_version": "",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "☔",
+    "description": "umbrella with rain drops",
+    "category": "Travel & Places",
+    "aliases": ["umbrella"],
+    "tags": ["rain", "weather"],
+    "unicode_version": "4.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "⛱️",
+    "description": "umbrella on ground",
+    "category": "Travel & Places",
+    "aliases": ["parasol_on_ground"],
+    "tags": ["beach_umbrella"],
+    "unicode_version": "5.2",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "⚡",
+    "description": "high voltage",
+    "category": "Travel & Places",
+    "aliases": ["zap"],
+    "tags": ["lightning", "thunder"],
+    "unicode_version": "4.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "❄️",
+    "description": "snowflake",
+    "category": "Travel & Places",
+    "aliases": ["snowflake"],
+    "tags": ["winter", "cold", "weather"],
+    "unicode_version": "",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "☃️",
+    "description": "snowman",
+    "category": "Travel & Places",
+    "aliases": ["snowman_with_snow"],
+    "tags": ["winter", "christmas"],
+    "unicode_version": "",
+    "ios_version": "9.1"
+  },
+  {
+    "emoji": "⛄",
+    "description": "snowman without snow",
+    "category": "Travel & Places",
+    "aliases": ["snowman"],
+    "tags": ["winter"],
+    "unicode_version": "5.2",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🔥",
+    "description": "fire",
+    "category": "Travel & Places",
+    "aliases": ["fire"],
+    "tags": ["burn"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "💧",
+    "description": "droplet",
+    "category": "Travel & Places",
+    "aliases": ["droplet"],
+    "tags": ["water"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🌊",
+    "description": "water wave",
+    "category": "Travel & Places",
+    "aliases": ["ocean"],
+    "tags": ["sea"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  },
+  {
+    "emoji": "🎃",
+    "description": "jack-o-lantern",
+    "category": "Activities",
+    "aliases": ["jack_o_lantern"],
+    "tags": ["halloween"],
+    "unicode_version": "6.0",
+    "ios_version": "6.0"
+  }
+]

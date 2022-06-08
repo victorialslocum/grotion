@@ -1,8 +1,10 @@
+from attr import dataclass
 import requests
 from decouple import config
 import json
 import re
 import spacy
+import random
 
 nlp = spacy.load("en_core_web_sm")
 RAPIDAPI_KEY = config('RAPIDAPI_KEY')
@@ -28,14 +30,14 @@ def get_recipe_data(recipe_url):
     instructions = response[0]['instructions'][0]['steps']
     ingredients = response[0]['ingredients']
     image = response[0]['images']
-    recipe_title = response[0]['name']
+    recipe_title = [response[0]['name']]
     servings = response[0]['yield']
 
     servings = [int(i) for i in servings.split() if i.isdigit()]
 
     unit_vocab = ['cup', 'pound', 'bunch', 'tablespoon',
-                  'pinch', 'g', 'whole', 'teaspoon', 'punnet', 'splash']
-    skip_words = ['small' 'of', 'ripe', 'chopped', 'finely', 'minced']
+                  'pinch', 'g', 'whole', 'teaspoon', 'punnet', 'splash', 'slice']
+    skip_words = ['small' 'of', 'ripe', 'chopped',  'finely', 'minced']
     stop_words = ['such', '(', ',', 'to']
 
     parsed_ingredients = []
@@ -44,7 +46,7 @@ def get_recipe_data(recipe_url):
         doc = nlp(ingredient)
         parsed = {}
         for item in doc:
-            if item.text in stop_words:
+            if item.text in stop_words and 'ingredient' in parsed:
                 break
             elif item.text.isnumeric() and 'quantity' not in parsed:
                 parsed['quantity'] = item.text
@@ -61,8 +63,7 @@ def get_recipe_data(recipe_url):
                         continue
                     elif child.pos_ in ['NOUN', 'ADJ', 'VERB', 'DET', 'PROPN'] and child.text not in skip_words:
                         np.append(child.text)
-                        parsed['ingredient'] = np
-        print(parsed)
+                parsed['ingredient'] = np
         parsed_ingredients.append(parsed)
 
    # get ingredient info from javascript file (/pages/api/heb.js)
@@ -73,19 +74,21 @@ def get_recipe_data(recipe_url):
         # load webpage content
         content = json.loads(page.content)
 
+        url = content[0][1]
+        info = content[0][0]
         items = []
+        # split item to price, size, and name
+        split = re.split('\,|each|\)|\(', info)
+        # TODO: FIX
+        total_price = split[0].replace("$", "").replace(" ", "")
+        total_size_split = split[-1].split()
+        total_size = [total_size_split[-2], total_size_split[-1]]
 
-        for item in content:
-            # split item to price, size, and name
-            split = re.split('\,|each|\)|\(', item)
-            # TODO: FIX
-            total_price = split[0].replace("$", "").replace(" ", "")
-            total_size = split[-1]
-            # put into item dict
-            item_dict = {'total_price': total_price,
-                         'total_size': total_size, 'item': item_name}
-            # append list
-            items.append(item_dict)
+        # put into item dict
+        item_dict = {'total_price': total_price,
+                     'total_size': total_size, 'item': item_name}
+        # append list
+        items.append(item_dict)
 
         # return items
         return items
@@ -95,6 +98,7 @@ def get_recipe_data(recipe_url):
         name = ' '.join(ingredient['ingredient'])
         # search heb for ingredient info
         items = get_ingredient_info(name)
+
         # if search is successful, append data, else, append 0
         if items:
             ingredient['store_price'] = items[0]['total_price']
@@ -103,10 +107,25 @@ def get_recipe_data(recipe_url):
             ingredient['store_price'] = 0
             ingredient['store_size'] = 0
 
-    return instructions, ingredients, image, recipe_title, servings, parsed_ingredients
+    with open('emojis.json', 'r') as f:
+        data = json.load(f)
+
+    emoji_list = []
+    doc = nlp(recipe_title[0])
+    title_split = [word.text for word in doc if word.pos_ in [
+        'NOUN', 'ADJ', 'PROPN']]
+    for item in data:
+        emoji = item['emoji']
+        description = item["description"]
+        for word in title_split:
+            if word.lower() in description.split():
+                emoji_list.append(emoji)
+
+    emoji = [random.choice(emoji_list) if emoji_list else '🛒']
+
+    return [instructions, ingredients, image, recipe_title, servings, parsed_ingredients, emoji, [recipe_url]]
 
 
-instructions, ingredients, image, name, servings, parsed_ingredients = get_recipe_data(
-    recipe_url)
+data = get_recipe_data(recipe_url)
 
-print(instructions, ingredients, image, name, servings, parsed_ingredients)
+print(data)
