@@ -1,4 +1,3 @@
-from attr import dataclass
 import requests
 from decouple import config
 import json

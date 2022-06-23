@@ -3,3 +3,5 @@ node_modules
 .next
 pages/api/heb.js
 pages/api/hebItem.js
+yarn.lock
+package-lock.json
