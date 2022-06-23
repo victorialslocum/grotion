@@ -222,7 +222,7 @@ const data = [
     "Place farro, asparagus, tomatoes, walnuts, cranberries, parsley, and chives in a large bowl. Drizzle the balsamic vinaigrette over and sprinkle about 3/4 cups Parmesan cheese, then toss. Top with the remaining 1/4 cup of Parmesan cheese. Serve at room temperature.",
   ],
   [
-    ("2 cups farro",
+    "2 cups farro",
     "¾ pound fresh asparagus, trimmed",
     "1 cup red and yellow cherry tomatoes, halved",
     "¾ cup chopped walnuts",
@@ -230,7 +230,7 @@ const data = [
     "½ cup chopped fresh parsley",
     "⅓ cup chopped fresh chives",
     "¼ cup balsamic vinaigrette, or to taste",
-    "1 cup shaved Parmesan cheese, divided"),
+    "1 cup shaved Parmesan cheese, divided",
   ],
   [
     "https://imagesvc.meredithcorp.io/v3/mm/image?q=60&c=sc&poi=face&w=3648&h=1824&url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1125962.jpg",
@@ -243,63 +243,63 @@ const data = [
       unit: "cup",
       ingredient: ["farro"],
       store_price: "3.07",
-      store_size: ["7", "oz"],
+      store_size: " 7 oz",
     },
     {
       quantity: "¾",
       unit: "pound",
       ingredient: ["fresh", "asparagus"],
       store_price: "4.31",
-      store_size: ["0.7", "lb"],
+      store_size: " Avg. 0.7 lb",
     },
     {
       quantity: "1",
       unit: "cup",
       ingredient: ["red", "yellow", "cherry", "tomatoes"],
       store_price: "5.65",
-      store_size: ["750", "mL"],
+      store_size: " 750 mL",
     },
     {
       quantity: "¾",
       unit: "cup",
       ingredient: ["walnuts"],
       store_price: "3.07",
-      store_size: ["6", "oz"],
+      store_size: " 6 oz",
     },
     {
       quantity: "¾",
       unit: "cup",
       ingredient: ["dried", "cranberries"],
       store_price: "2.35",
-      store_size: ["5", "oz"],
+      store_size: " 5 oz",
     },
     {
       quantity: "½",
       unit: "cup",
       ingredient: ["fresh", "parsley"],
       store_price: "2.04",
-      store_size: [".75", "oz"],
+      store_size: " .75 oz",
     },
     {
       quantity: "⅓",
       unit: "cup",
       ingredient: ["fresh", "chives"],
       store_price: "4.61",
-      store_size: [".25", "oz"],
+      store_size: " .25 oz",
     },
     {
       quantity: "¼",
       unit: "cup",
       ingredient: ["balsamic", "vinaigrette"],
       store_price: "2.58",
-      store_size: ["16", "oz"],
+      store_size: " 16 oz",
     },
     {
       quantity: "1",
       unit: "cup",
       ingredient: ["Parmesan", "cheese"],
       store_price: "3.39",
-      store_size: ["8", "oz"],
+      store_size: " 8 oz",
     },
   ],
   ["🥗"],
@@ -335,7 +335,7 @@ for (let i = 0; i < ingredientData.length; i++) {
   let unit = itemData["unit"];
   let ingredient = itemData["ingredient"].join(" ");
   let store_price = parseFloat(itemData["store_price"]);
-  let store_size = itemData["store_size"].join(" ");
+  let store_size = itemData["store_size"];
   let category = "test";
 
   let foodPageId = await queryFoodDb(

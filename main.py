@@ -1,4 +1,3 @@
-from attr import dataclass
 import requests
 from decouple import config
 import json
@@ -64,9 +63,18 @@ def get_recipe_data(recipe_url):
                     elif child.pos_ in ['NOUN', 'ADJ', 'VERB', 'DET', 'PROPN'] and child.text not in skip_words:
                         np.append(child.text)
                 parsed['ingredient'] = np
+
+        if 'unit' not in parsed:
+            parsed['unit'] = 'whole'
+        elif 'quantity' not in parsed:
+            parsed['quantity'] = 1
+        elif 'ingredient' not in parsed:
+            parsed['ingredient'] = 'name not found'
+
         parsed_ingredients.append(parsed)
 
    # get ingredient info from javascript file (/pages/api/heb.js)
+
     def get_ingredient_info(item_name):
         # access the webpage
         url = 'http://localhost:3000/api/heb?param=' + item_name
@@ -81,8 +89,7 @@ def get_recipe_data(recipe_url):
         split = re.split('\,|each|\)|\(', info)
         # TODO: FIX
         total_price = split[0].replace("$", "").replace(" ", "")
-        total_size_split = split[-1].split()
-        total_size = [total_size_split[-2], total_size_split[-1]]
+        total_size = split[-1]
 
         # put into item dict
         item_dict = {'total_price': total_price,
